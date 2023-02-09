@@ -1,0 +1,23 @@
+{
+  "name": "afragen/dependencies-api-example",
+  "description": "Add plugin card data for non-dot org dependencies.",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andy Fragen",
+      "email": "andy@thefragens.com",
+      "homepage": "https://thefragens.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/WordPress/dependencies-api-example/issues",
+    "source": "https://github.com/WordPress/dependencies-api-example"
+  },
+  "prefer-stable": true,
+  "require": {
+    "php": ">=5.6",
+    "afragen/add-plugin-dependency-api": "^0"
+  }
+}

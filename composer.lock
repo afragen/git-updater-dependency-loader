@@ -1,0 +1,69 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "06c70d819b03f4e12a0433dcd98e8f6f",
+    "packages": [
+        {
+            "name": "afragen/add-plugin-dependency-api",
+            "version": "0.4.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/afragen/add-plugin-dependency-api.git",
+                "reference": "c1400f9f132b8025d46c55aae2fe3c47c784908e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/afragen/add-plugin-dependency-api/zipball/c1400f9f132b8025d46c55aae2fe3c47c784908e",
+                "reference": "c1400f9f132b8025d46c55aae2fe3c47c784908e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "add-plugin-dependency-api.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andy Fragen",
+                    "email": "andy@thefragens.com",
+                    "homepage": "https://thefragens.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Library that helps WordPress plugin dependency management.",
+            "support": {
+                "issues": "https://github.com/afragen/add-plugin-dependency-api/issues",
+                "source": "https://github.com/afragen/add-plugin-dependency-api"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/afragen",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-02-08T21:40:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
