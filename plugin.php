@@ -12,7 +12,6 @@
  * Requires PHP:      7.1
  * GitHub Plugin URI: https://github.com/afragen/dependencies-api-example
  * Primary Branch:    main
- * Requires Plugins: git-updater, gravityforms
  */
 
 // Exit if accessed directly.
