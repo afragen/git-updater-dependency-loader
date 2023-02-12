@@ -10,9 +10,9 @@
  * License:           MIT
  * Requires at least: 5.2
  * Requires PHP:      7.1
- * GitHub Plugin URI: https://github.com/afragen/dependencies-api-example
+ * GitHub Plugin URI: https://github.com/afragen/git-updater-dependency-loader
  * Primary Branch:    main
- * Requires Plugins:  git-updater
+ * Requires Plugins:  wp-plugin-dependencies
  */
 
 // Exit if accessed directly.
