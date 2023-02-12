@@ -1,6 +1,6 @@
 {
-  "name": "afragen/dependencies-api-example",
-  "description": "Add plugin card data for non-dot org dependencies.",
+  "name": "afragen/git-updater-dependency-loader",
+  "description": "Add plugin card data for non-dot org dependencies, Git Updater",
   "type": "wordpress-plugin",
   "license": "MIT",
   "authors": [
@@ -12,8 +12,8 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/WordPress/dependencies-api-example/issues",
-    "source": "https://github.com/WordPress/dependencies-api-example"
+    "issues": "https://github.com/afragen/git-updater-dependency-loader/issues",
+    "source": "https://github.com/afragen/git-updater-dependency-loader"
   },
   "prefer-stable": true,
   "require": {

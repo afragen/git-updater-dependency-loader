@@ -1,10 +1,10 @@
 <?php
 /**
- * Dependencies API Example.
+ * Git Updater Dependency Loader.
  *
- * Plugin Name:       Dependencies API Example
- * Plugin URI:        https://github.com/afragen/dependencies-api-example
- * Description:       Add plugin card data for non-dot org dependencies.
+ * Plugin Name:       Git Updater Dependency Loader
+ * Plugin URI:        https://github.com/afragen/git-updater-dependency-loader
+ * Description:       Add plugin card data for non-dot org dependencies, Git Updater.
  * Version:           0.1.0
  * Author:            Andy Fragen
  * License:           MIT
@@ -12,6 +12,7 @@
  * Requires PHP:      7.1
  * GitHub Plugin URI: https://github.com/afragen/dependencies-api-example
  * Primary Branch:    main
+ * Requires Plugins:  git-updater
  */
 
 // Exit if accessed directly.
@@ -23,12 +24,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 require __DIR__ . '/vendor/autoload.php';
 
 // Add the sites with REST endpoints that return plugins_api() data when passed `slug` query arg.
+// Can also pass URL to JSON file.
 add_filter(
 	'plugin_dependency_endpoints',
 	function () {
-		return array(
-			'https://git-updater.com/wp-json/git-updater/v1/plugins-api/',
-			'https://pub.thefragens.com/gravityforms.json',
-		);
+		return [ 'https://git-updater.com/wp-json/git-updater/v1/plugins-api/' ];
 	}
 );
