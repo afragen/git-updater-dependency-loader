@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "06c70d819b03f4e12a0433dcd98e8f6f",
+    "content-hash": "ff2b9b33f9ab24dec3e42e26274bb7df",
     "packages": [
         {
             "name": "afragen/add-plugin-dependency-api",
-            "version": "0.4.5",
+            "version": "0.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afragen/add-plugin-dependency-api.git",
-                "reference": "c1400f9f132b8025d46c55aae2fe3c47c784908e"
+                "reference": "508532552ba903d413524b55abbb243a98fbae45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afragen/add-plugin-dependency-api/zipball/c1400f9f132b8025d46c55aae2fe3c47c784908e",
-                "reference": "c1400f9f132b8025d46c55aae2fe3c47c784908e",
+                "url": "https://api.github.com/repos/afragen/add-plugin-dependency-api/zipball/508532552ba903d413524b55abbb243a98fbae45",
+                "reference": "508532552ba903d413524b55abbb243a98fbae45",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-08T21:40:39+00:00"
+            "time": "2023-02-12T02:39:48+00:00"
         }
     ],
     "packages-dev": [],

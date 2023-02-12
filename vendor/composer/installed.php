@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'afragen/dependencies-api-example',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'name' => 'afragen/git-updater-dependency-loader',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'a2b82f10267f406ed8cbd490eee4764ccd3b6075',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,18 +11,18 @@
     ),
     'versions' => array(
         'afragen/add-plugin-dependency-api' => array(
-            'pretty_version' => '0.4.5',
-            'version' => '0.4.5.0',
-            'reference' => 'c1400f9f132b8025d46c55aae2fe3c47c784908e',
+            'pretty_version' => '0.4.6',
+            'version' => '0.4.6.0',
+            'reference' => '508532552ba903d413524b55abbb243a98fbae45',
             'type' => 'library',
             'install_path' => __DIR__ . '/../afragen/add-plugin-dependency-api',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'afragen/dependencies-api-example' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+        'afragen/git-updater-dependency-loader' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'a2b82f10267f406ed8cbd490eee4764ccd3b6075',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
