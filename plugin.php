@@ -2,6 +2,8 @@
 /**
  * Git Updater Dependency Loader.
  *
+ * @package plugin-dependency-loader
+ *
  * Plugin Name:       Git Updater Dependency Loader
  * Plugin URI:        https://github.com/afragen/git-updater-dependency-loader
  * Description:       Add plugin card data for non-dot org dependencies, Git Updater.
