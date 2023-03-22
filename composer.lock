@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "99821eed8c5fc46c491e88f197a671e1",
+    "content-hash": "3dad14cbd9d0bbd00d766965cc7a6751",
     "packages": [
         {
             "name": "afragen/add-plugin-dependency-api",
@@ -245,7 +245,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.6"
+        "php": ">=7.2"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"

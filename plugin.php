@@ -11,7 +11,7 @@
  * Author:            Andy Fragen
  * License:           MIT
  * Requires at least: 5.2
- * Requires PHP:      7.1
+ * Requires PHP:      7.2
  * GitHub Plugin URI: https://github.com/afragen/git-updater-dependency-loader
  * Primary Branch:    main
  */
