@@ -3,9 +3,9 @@
 * Contributors: afragen
 * Tags: git updater, plugin dependency
 * Requires at least: 5.9
-* Requires PHP: 5.6
+* Requires PHP: 7.2
 * Tested up to: 6.2
-* Stable tag: main
+* Stable tag: 0.1.0
 * Donate link: <https://thefragens.com/git-updater-donate>
 * License: MIT
 
